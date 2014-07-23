@@ -1,6 +1,6 @@
 # msgpack
 
-[![CI Status](http://img.shields.io/travis/Rémy Virin/msgpack.svg?style=flat)](https://travis-ci.org/Rémy Virin/msgpack)
+[![CI Status](http://img.shields.io/travis/rvirin/msgpack.svg?style=flat)](https://travis-ci.org/rvirin/msgpack)
 [![Version](https://img.shields.io/cocoapods/v/msgpack.svg?style=flat)](http://cocoadocs.org/docsets/msgpack)
 [![License](https://img.shields.io/cocoapods/l/msgpack.svg?style=flat)](http://cocoadocs.org/docsets/msgpack)
 [![Platform](https://img.shields.io/cocoapods/p/msgpack.svg?style=flat)](http://cocoadocs.org/docsets/msgpack)
