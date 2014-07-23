@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "msgpack"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Latest msgpack source, with objective-C  wrapper. Unit tested."
   s.description      = <<-DESC
 			Msgpack for objective-C
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
                        DESC
   s.homepage         = "https://github.com/rvirin/msgpack-objective-C"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
+  s.license          = 'Apache'
   s.author           = { "Rémy Virin" => "remy@remyvirin.com" }
   s.source           = { :git => "https://github.com/rvirin/msgpack-objective-C.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/remyvirin'
