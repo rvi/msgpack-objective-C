@@ -24,5 +24,4 @@ Rémy Virin, remy@remyvirin.com
 
 ## License
 
-msgpack is available under the MIT license. See the LICENSE file for more info.
-
+Licence can be found here : http://www.apache.org/licenses/LICENSE-2.0.html
