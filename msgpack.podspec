@@ -10,25 +10,23 @@
 Pod::Spec.new do |s|
   s.name             = "msgpack"
   s.version          = "0.1.0"
-  s.summary          = "A short description of msgpack."
+  s.summary          = "Latest msgpack source, with objective-C  wrapper. Unit tested."
   s.description      = <<-DESC
-                       An optional longer description of msgpack
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+			Msgpack for objective-C
+			Extremely efficient object serialization library. It's like JSON, but very fast and small.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/msgpack"
+  s.homepage         = "https://github.com/rvirin/msgpack-objective-C"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Rémy Virin" => "remy@remyvirin.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/msgpack.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/rvirin/msgpack-objective-C.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/remyvirin'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
-  s.resources = 'Pod/Assets/*.png'
+  # s.resources = 'Pod/Assets/*.png'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
