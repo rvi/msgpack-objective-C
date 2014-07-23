@@ -23,33 +23,7 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		93EA4059197FC09300EB48DB /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 93EA402F197FC09300EB48DB /* .gitkeep */; };
-		93EA405A197FC09300EB48DB /* MessagePackPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA4032197FC09300EB48DB /* MessagePackPacker.m */; };
-		93EA405B197FC09300EB48DB /* MessagePackParser+Streaming.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA4034197FC09300EB48DB /* MessagePackParser+Streaming.m */; };
-		93EA405C197FC09300EB48DB /* MessagePackParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA4036197FC09300EB48DB /* MessagePackParser.m */; };
-		93EA405D197FC09300EB48DB /* objectc.c in Sources */ = {isa = PBXBuildFile; fileRef = 93EA4048197FC09300EB48DB /* objectc.c */; };
-		93EA405E197FC09300EB48DB /* unpack.c in Sources */ = {isa = PBXBuildFile; fileRef = 93EA4049197FC09300EB48DB /* unpack.c */; };
-		93EA405F197FC09300EB48DB /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = 93EA404A197FC09300EB48DB /* version.c */; };
-		93EA4060197FC09300EB48DB /* vrefbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 93EA404B197FC09300EB48DB /* vrefbuffer.c */; };
-		93EA4061197FC09300EB48DB /* zone.c in Sources */ = {isa = PBXBuildFile; fileRef = 93EA404C197FC09300EB48DB /* zone.c */; };
-		93EA4062197FC09300EB48DB /* NSArray+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA404E197FC09300EB48DB /* NSArray+MessagePack.m */; };
-		93EA4063197FC09300EB48DB /* NSData+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA4050197FC09300EB48DB /* NSData+MessagePack.m */; };
-		93EA4064197FC09300EB48DB /* NSDictionary+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA4052197FC09300EB48DB /* NSDictionary+MessagePack.m */; };
-		93EA4065197FC09300EB48DB /* NSNull+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA4054197FC09300EB48DB /* NSNull+MessagePack.m */; };
-		93EA4066197FC09300EB48DB /* NSNumber+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA4056197FC09300EB48DB /* NSNumber+MessagePack.m */; };
-		93EA4067197FC09300EB48DB /* NSString+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA4058197FC09300EB48DB /* NSString+MessagePack.m */; };
 		93EA4069197FC0D400EB48DB /* MessagePack_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA4068197FC0D400EB48DB /* MessagePack_Tests.m */; };
-		93EA406A197FC14F00EB48DB /* MessagePackPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA4032197FC09300EB48DB /* MessagePackPacker.m */; };
-		93EA406B197FC14F00EB48DB /* MessagePackParser+Streaming.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA4034197FC09300EB48DB /* MessagePackParser+Streaming.m */; };
-		93EA406C197FC14F00EB48DB /* MessagePackParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA4036197FC09300EB48DB /* MessagePackParser.m */; };
-		93EA406D197FC14F00EB48DB /* NSArray+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA404E197FC09300EB48DB /* NSArray+MessagePack.m */; };
-		93EA406E197FC14F00EB48DB /* NSData+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA4050197FC09300EB48DB /* NSData+MessagePack.m */; };
-		93EA406F197FC14F00EB48DB /* NSDictionary+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA4052197FC09300EB48DB /* NSDictionary+MessagePack.m */; };
-		93EA4070197FC14F00EB48DB /* NSNull+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA4054197FC09300EB48DB /* NSNull+MessagePack.m */; };
-		93EA4071197FC14F00EB48DB /* NSNumber+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA4056197FC09300EB48DB /* NSNumber+MessagePack.m */; };
-		93EA4072197FC14F00EB48DB /* NSString+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA4058197FC09300EB48DB /* NSString+MessagePack.m */; };
-		93EA4073197FC15B00EB48DB /* objectc.c in Sources */ = {isa = PBXBuildFile; fileRef = 93EA4048197FC09300EB48DB /* objectc.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,49 +60,8 @@
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		600BF8BFF6F04F9890675A5A /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		93EA402F197FC09300EB48DB /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		93EA4030197FC09300EB48DB /* MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagePack.h; sourceTree = "<group>"; };
-		93EA4031197FC09300EB48DB /* MessagePackPacker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagePackPacker.h; sourceTree = "<group>"; };
-		93EA4032197FC09300EB48DB /* MessagePackPacker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagePackPacker.m; sourceTree = "<group>"; };
-		93EA4033197FC09300EB48DB /* MessagePackParser+Streaming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MessagePackParser+Streaming.h"; sourceTree = "<group>"; };
-		93EA4034197FC09300EB48DB /* MessagePackParser+Streaming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MessagePackParser+Streaming.m"; sourceTree = "<group>"; };
-		93EA4035197FC09300EB48DB /* MessagePackParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagePackParser.h; sourceTree = "<group>"; };
-		93EA4036197FC09300EB48DB /* MessagePackParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagePackParser.m; sourceTree = "<group>"; };
-		93EA4039197FC09300EB48DB /* object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = object.h; sourceTree = "<group>"; };
-		93EA403A197FC09300EB48DB /* pack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pack.h; sourceTree = "<group>"; };
-		93EA403B197FC09300EB48DB /* pack_define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pack_define.h; sourceTree = "<group>"; };
-		93EA403C197FC09300EB48DB /* pack_template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pack_template.h; sourceTree = "<group>"; };
-		93EA403D197FC09300EB48DB /* sbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbuffer.h; sourceTree = "<group>"; };
-		93EA403E197FC09300EB48DB /* sysdep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sysdep.h; sourceTree = "<group>"; };
-		93EA403F197FC09300EB48DB /* unpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unpack.h; sourceTree = "<group>"; };
-		93EA4040197FC09300EB48DB /* unpack_define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unpack_define.h; sourceTree = "<group>"; };
-		93EA4041197FC09300EB48DB /* unpack_template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unpack_template.h; sourceTree = "<group>"; };
-		93EA4042197FC09300EB48DB /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
-		93EA4043197FC09300EB48DB /* version_master.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version_master.h; sourceTree = "<group>"; };
-		93EA4044197FC09300EB48DB /* vrefbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vrefbuffer.h; sourceTree = "<group>"; };
-		93EA4045197FC09300EB48DB /* zbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbuffer.h; sourceTree = "<group>"; };
-		93EA4046197FC09300EB48DB /* zone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zone.h; sourceTree = "<group>"; };
-		93EA4047197FC09300EB48DB /* msgpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msgpack.h; sourceTree = "<group>"; };
-		93EA4048197FC09300EB48DB /* objectc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = objectc.c; sourceTree = "<group>"; };
-		93EA4049197FC09300EB48DB /* unpack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unpack.c; sourceTree = "<group>"; };
-		93EA404A197FC09300EB48DB /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
-		93EA404B197FC09300EB48DB /* vrefbuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vrefbuffer.c; sourceTree = "<group>"; };
-		93EA404C197FC09300EB48DB /* zone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zone.c; sourceTree = "<group>"; };
-		93EA404D197FC09300EB48DB /* NSArray+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MessagePack.h"; sourceTree = "<group>"; };
-		93EA404E197FC09300EB48DB /* NSArray+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MessagePack.m"; sourceTree = "<group>"; };
-		93EA404F197FC09300EB48DB /* NSData+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MessagePack.h"; sourceTree = "<group>"; };
-		93EA4050197FC09300EB48DB /* NSData+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MessagePack.m"; sourceTree = "<group>"; };
-		93EA4051197FC09300EB48DB /* NSDictionary+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MessagePack.h"; sourceTree = "<group>"; };
-		93EA4052197FC09300EB48DB /* NSDictionary+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MessagePack.m"; sourceTree = "<group>"; };
-		93EA4053197FC09300EB48DB /* NSNull+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+MessagePack.h"; sourceTree = "<group>"; };
-		93EA4054197FC09300EB48DB /* NSNull+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+MessagePack.m"; sourceTree = "<group>"; };
-		93EA4055197FC09300EB48DB /* NSNumber+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+MessagePack.h"; sourceTree = "<group>"; };
-		93EA4056197FC09300EB48DB /* NSNumber+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+MessagePack.m"; sourceTree = "<group>"; };
-		93EA4057197FC09300EB48DB /* NSString+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MessagePack.h"; sourceTree = "<group>"; };
-		93EA4058197FC09300EB48DB /* NSString+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MessagePack.m"; sourceTree = "<group>"; };
 		93EA4068197FC0D400EB48DB /* MessagePack_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagePack_Tests.m; sourceTree = "<group>"; };
 		B836069416804E91872E129D /* libPods-msgpack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-msgpack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D60F3450D940BA94ED83F1 /* Pods-Tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.xcconfig"; path = "Pods/Pods-Tests.xcconfig"; sourceTree = "<group>"; };
@@ -198,7 +131,6 @@
 		6003F593195388D20070C39A /* msgpack */ = {
 			isa = PBXGroup;
 			children = (
-				93EA402E197FC09300EB48DB /* Classes */,
 				6003F59C195388D20070C39A /* MPAppDelegate.h */,
 				6003F59D195388D20070C39A /* MPAppDelegate.m */,
 				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
@@ -226,7 +158,6 @@
 			isa = PBXGroup;
 			children = (
 				93EA4068197FC0D400EB48DB /* MessagePack_Tests.m */,
-				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -250,70 +181,6 @@
 				5787EDDA97EA4CC7B8FC5C35 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		93EA402E197FC09300EB48DB /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				93EA402F197FC09300EB48DB /* .gitkeep */,
-				93EA4030197FC09300EB48DB /* MessagePack.h */,
-				93EA4031197FC09300EB48DB /* MessagePackPacker.h */,
-				93EA4032197FC09300EB48DB /* MessagePackPacker.m */,
-				93EA4033197FC09300EB48DB /* MessagePackParser+Streaming.h */,
-				93EA4034197FC09300EB48DB /* MessagePackParser+Streaming.m */,
-				93EA4035197FC09300EB48DB /* MessagePackParser.h */,
-				93EA4036197FC09300EB48DB /* MessagePackParser.m */,
-				93EA4037197FC09300EB48DB /* msgpack_src */,
-				93EA404D197FC09300EB48DB /* NSArray+MessagePack.h */,
-				93EA404E197FC09300EB48DB /* NSArray+MessagePack.m */,
-				93EA404F197FC09300EB48DB /* NSData+MessagePack.h */,
-				93EA4050197FC09300EB48DB /* NSData+MessagePack.m */,
-				93EA4051197FC09300EB48DB /* NSDictionary+MessagePack.h */,
-				93EA4052197FC09300EB48DB /* NSDictionary+MessagePack.m */,
-				93EA4053197FC09300EB48DB /* NSNull+MessagePack.h */,
-				93EA4054197FC09300EB48DB /* NSNull+MessagePack.m */,
-				93EA4055197FC09300EB48DB /* NSNumber+MessagePack.h */,
-				93EA4056197FC09300EB48DB /* NSNumber+MessagePack.m */,
-				93EA4057197FC09300EB48DB /* NSString+MessagePack.h */,
-				93EA4058197FC09300EB48DB /* NSString+MessagePack.m */,
-			);
-			name = Classes;
-			path = ../../Pod/Classes;
-			sourceTree = "<group>";
-		};
-		93EA4037197FC09300EB48DB /* msgpack_src */ = {
-			isa = PBXGroup;
-			children = (
-				93EA4038197FC09300EB48DB /* msgpack */,
-				93EA4047197FC09300EB48DB /* msgpack.h */,
-				93EA4048197FC09300EB48DB /* objectc.c */,
-				93EA4049197FC09300EB48DB /* unpack.c */,
-				93EA404A197FC09300EB48DB /* version.c */,
-				93EA404B197FC09300EB48DB /* vrefbuffer.c */,
-				93EA404C197FC09300EB48DB /* zone.c */,
-			);
-			path = msgpack_src;
-			sourceTree = "<group>";
-		};
-		93EA4038197FC09300EB48DB /* msgpack */ = {
-			isa = PBXGroup;
-			children = (
-				93EA4039197FC09300EB48DB /* object.h */,
-				93EA403A197FC09300EB48DB /* pack.h */,
-				93EA403B197FC09300EB48DB /* pack_define.h */,
-				93EA403C197FC09300EB48DB /* pack_template.h */,
-				93EA403D197FC09300EB48DB /* sbuffer.h */,
-				93EA403E197FC09300EB48DB /* sysdep.h */,
-				93EA403F197FC09300EB48DB /* unpack.h */,
-				93EA4040197FC09300EB48DB /* unpack_define.h */,
-				93EA4041197FC09300EB48DB /* unpack_template.h */,
-				93EA4042197FC09300EB48DB /* version.h */,
-				93EA4043197FC09300EB48DB /* version_master.h */,
-				93EA4044197FC09300EB48DB /* vrefbuffer.h */,
-				93EA4045197FC09300EB48DB /* zbuffer.h */,
-				93EA4046197FC09300EB48DB /* zone.h */,
-			);
-			path = msgpack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -399,7 +266,6 @@
 			files = (
 				6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				93EA4059197FC09300EB48DB /* .gitkeep in Resources */,
 				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -483,21 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93EA405D197FC09300EB48DB /* objectc.c in Sources */,
-				93EA405A197FC09300EB48DB /* MessagePackPacker.m in Sources */,
 				6003F59E195388D20070C39A /* MPAppDelegate.m in Sources */,
-				93EA4062197FC09300EB48DB /* NSArray+MessagePack.m in Sources */,
-				93EA405E197FC09300EB48DB /* unpack.c in Sources */,
-				93EA4060197FC09300EB48DB /* vrefbuffer.c in Sources */,
-				93EA405F197FC09300EB48DB /* version.c in Sources */,
-				93EA4067197FC09300EB48DB /* NSString+MessagePack.m in Sources */,
-				93EA4065197FC09300EB48DB /* NSNull+MessagePack.m in Sources */,
-				93EA4063197FC09300EB48DB /* NSData+MessagePack.m in Sources */,
-				93EA405B197FC09300EB48DB /* MessagePackParser+Streaming.m in Sources */,
-				93EA4066197FC09300EB48DB /* NSNumber+MessagePack.m in Sources */,
-				93EA405C197FC09300EB48DB /* MessagePackParser.m in Sources */,
-				93EA4061197FC09300EB48DB /* zone.c in Sources */,
-				93EA4064197FC09300EB48DB /* NSDictionary+MessagePack.m in Sources */,
 				6003F5A7195388D20070C39A /* MPViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -507,18 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93EA406A197FC14F00EB48DB /* MessagePackPacker.m in Sources */,
 				93EA4069197FC0D400EB48DB /* MessagePack_Tests.m in Sources */,
-				93EA406B197FC14F00EB48DB /* MessagePackParser+Streaming.m in Sources */,
-				93EA406F197FC14F00EB48DB /* NSDictionary+MessagePack.m in Sources */,
-				93EA4073197FC15B00EB48DB /* objectc.c in Sources */,
-				93EA4071197FC14F00EB48DB /* NSNumber+MessagePack.m in Sources */,
-				93EA4072197FC14F00EB48DB /* NSString+MessagePack.m in Sources */,
-				93EA4070197FC14F00EB48DB /* NSNull+MessagePack.m in Sources */,
-				93EA406E197FC14F00EB48DB /* NSData+MessagePack.m in Sources */,
-				93EA406D197FC14F00EB48DB /* NSArray+MessagePack.m in Sources */,
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
-				93EA406C197FC14F00EB48DB /* MessagePackParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,9 +1,7 @@
 PODS:
-  - Kiwi (2.3.0)
   - msgpack (0.1.0)
 
 DEPENDENCIES:
-  - Kiwi
   - msgpack (from `../`)
 
 EXTERNAL SOURCES:
@@ -11,7 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Kiwi: 54bece5b35564d9b8e03c608d926f1a22fcfc589
-  msgpack: 5937ee26fd9b7c94fdfeca8caa3da29108bf2769
+  msgpack: d4a8bea7be8a916cab4a0da4650805b453582f0d
 
 COCOAPODS: 0.33.1

@@ -4,6 +4,4 @@ end
 
 target 'Tests', :exclusive => true do
   pod "msgpack", :path => "../"
-
-  pod 'Kiwi'
 end
