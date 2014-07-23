@@ -18,9 +18,14 @@ it, simply add the following line to your Podfile:
 
     pod "msgpack"
 
-## Author
+## Author of the pod
 
 Rémy Virin, remy@remyvirin.com
+
+## Credits
+
+* Initial version was made by [msgpack team] (https://github.com/msgpack/msgpack-objectivec)
+* Improvements were made by [Charles Françoise](https://github.com/loderunner/msgpack-objectivec)
 
 ## License
 
