@@ -1,7 +1,7 @@
 target 'msgpack', :exclusive => true do
-  pod "msgpack", :path => "../"
+  pod 'msgpack', :path => "../"
 end
 
 target 'Tests', :exclusive => true do
-  pod "msgpack", :path => "../"
+  pod 'msgpack', :path => "../"
 end
