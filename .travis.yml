@@ -4,6 +4,7 @@ before_install:
 before_script:
   - brew update
   - brew install xctool && brew cleanup xctool
+  - xctool --version
   - cd Example
   - pod install
 script: 
