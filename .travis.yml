@@ -7,4 +7,4 @@ before_script:
   - cd Example
   - pod install
 script: 
-- xctool test -workspace msgpack.xcworkspace -scheme msgpack -sdk iphonesimulator7.1 ONLY_ACTIVE_ARCH=NO
+- xctool test -workspace msgpack.xcworkspace -scheme msgpack -sdk iphonesimulator -destination 'name=iPhone Retina (4-inch 64-bit),OS=8.0'
