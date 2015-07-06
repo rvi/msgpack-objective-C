@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
 			Msgpack for objective-C
 			Extremely efficient object serialization library. It's like JSON, but very fast and small.
                        DESC
-  s.homepage         = "https://github.com/rvirin/msgpack-objective-C"
+  s.homepage         = "https://github.com/rvi/msgpack-objective-C"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'Apache'
   s.author           = { "Rémy Virin" => "remy@remyvirin.com" }
-  s.source           = { :git => "https://github.com/rvirin/msgpack-objective-C.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/rvi/msgpack-objective-C.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/remyvirin'
 
   s.platform     = :ios, '7.0'
