@@ -8,14 +8,90 @@
 
 /* Begin PBXBuildFile section */
 		D736A0BB1F90F760005ABE81 /* msgpack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0B91F90F760005ABE81 /* msgpack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D736A0C51F90FA16005ABE81 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = D736A0C41F90FA16005ABE81 /* Classes */; };
+		D736A0E51F917097005ABE81 /* MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D21F917097005ABE81 /* MessagePack.h */; };
+		D736A0E61F917097005ABE81 /* MessagePackPacker.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D31F917097005ABE81 /* MessagePackPacker.h */; };
+		D736A0E71F917097005ABE81 /* MessagePackPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0D41F917097005ABE81 /* MessagePackPacker.m */; };
+		D736A0E81F917097005ABE81 /* MessagePackParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D51F917097005ABE81 /* MessagePackParser.h */; };
+		D736A0E91F917097005ABE81 /* MessagePackParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0D61F917097005ABE81 /* MessagePackParser.m */; };
+		D736A0EA1F917097005ABE81 /* MessagePackParser+Streaming.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D71F917097005ABE81 /* MessagePackParser+Streaming.h */; };
+		D736A0EB1F917097005ABE81 /* MessagePackParser+Streaming.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0D81F917097005ABE81 /* MessagePackParser+Streaming.m */; };
+		D736A0EC1F917097005ABE81 /* NSArray+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D91F917097005ABE81 /* NSArray+MessagePack.h */; };
+		D736A0ED1F917097005ABE81 /* NSArray+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0DA1F917097005ABE81 /* NSArray+MessagePack.m */; };
+		D736A0EE1F917097005ABE81 /* NSData+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0DB1F917097005ABE81 /* NSData+MessagePack.h */; };
+		D736A0EF1F917097005ABE81 /* NSData+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0DC1F917097005ABE81 /* NSData+MessagePack.m */; };
+		D736A0F01F917097005ABE81 /* NSDictionary+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0DD1F917097005ABE81 /* NSDictionary+MessagePack.h */; };
+		D736A0F11F917097005ABE81 /* NSDictionary+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0DE1F917097005ABE81 /* NSDictionary+MessagePack.m */; };
+		D736A0F21F917097005ABE81 /* NSNull+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0DF1F917097005ABE81 /* NSNull+MessagePack.h */; };
+		D736A0F31F917097005ABE81 /* NSNull+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0E01F917097005ABE81 /* NSNull+MessagePack.m */; };
+		D736A0F41F917097005ABE81 /* NSNumber+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0E11F917097005ABE81 /* NSNumber+MessagePack.h */; };
+		D736A0F51F917097005ABE81 /* NSNumber+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0E21F917097005ABE81 /* NSNumber+MessagePack.m */; };
+		D736A0F61F917097005ABE81 /* NSString+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0E31F917097005ABE81 /* NSString+MessagePack.h */; };
+		D736A0F71F917097005ABE81 /* NSString+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0E41F917097005ABE81 /* NSString+MessagePack.m */; };
+		D736A0FF1F9170D7005ABE81 /* msgpack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0F91F9170D7005ABE81 /* msgpack.h */; };
+		D736A1001F9170D7005ABE81 /* objectc.c in Sources */ = {isa = PBXBuildFile; fileRef = D736A0FA1F9170D7005ABE81 /* objectc.c */; };
+		D736A1011F9170D7005ABE81 /* unpack.c in Sources */ = {isa = PBXBuildFile; fileRef = D736A0FB1F9170D7005ABE81 /* unpack.c */; };
+		D736A1021F9170D7005ABE81 /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = D736A0FC1F9170D7005ABE81 /* version.c */; };
+		D736A1031F9170D7005ABE81 /* vrefbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = D736A0FD1F9170D7005ABE81 /* vrefbuffer.c */; };
+		D736A1041F9170D7005ABE81 /* zone.c in Sources */ = {isa = PBXBuildFile; fileRef = D736A0FE1F9170D7005ABE81 /* zone.c */; };
+		D736A1141F917112005ABE81 /* object.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1061F917112005ABE81 /* object.h */; };
+		D736A1151F917112005ABE81 /* pack_define.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1071F917112005ABE81 /* pack_define.h */; };
+		D736A1161F917112005ABE81 /* pack_template.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1081F917112005ABE81 /* pack_template.h */; };
+		D736A1171F917112005ABE81 /* pack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1091F917112005ABE81 /* pack.h */; };
+		D736A1181F917112005ABE81 /* sbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10A1F917112005ABE81 /* sbuffer.h */; };
+		D736A1191F917112005ABE81 /* sysdep.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10B1F917112005ABE81 /* sysdep.h */; };
+		D736A11A1F917112005ABE81 /* unpack_define.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10C1F917112005ABE81 /* unpack_define.h */; };
+		D736A11B1F917112005ABE81 /* unpack_template.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10D1F917112005ABE81 /* unpack_template.h */; };
+		D736A11C1F917112005ABE81 /* unpack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10E1F917112005ABE81 /* unpack.h */; };
+		D736A11D1F917112005ABE81 /* version_master.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10F1F917112005ABE81 /* version_master.h */; };
+		D736A11E1F917112005ABE81 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1101F917112005ABE81 /* version.h */; };
+		D736A11F1F917112005ABE81 /* vrefbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1111F917112005ABE81 /* vrefbuffer.h */; };
+		D736A1201F917112005ABE81 /* zbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1121F917112005ABE81 /* zbuffer.h */; };
+		D736A1211F917112005ABE81 /* zone.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1131F917112005ABE81 /* zone.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D736A0B61F90F760005ABE81 /* msgpack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = msgpack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D736A0B91F90F760005ABE81 /* msgpack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = msgpack.h; sourceTree = "<group>"; };
-		D736A0BA1F90F760005ABE81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D736A0C41F90FA16005ABE81 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Classes; path = Pod/Classes; sourceTree = "<group>"; };
+		D736A0B91F90F760005ABE81 /* msgpack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = msgpack.h; path = msgpack/msgpack.h; sourceTree = "<group>"; };
+		D736A0BA1F90F760005ABE81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = msgpack/Info.plist; sourceTree = "<group>"; };
+		D736A0D21F917097005ABE81 /* MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagePack.h; path = Pod/Classes/MessagePack.h; sourceTree = "<group>"; };
+		D736A0D31F917097005ABE81 /* MessagePackPacker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagePackPacker.h; path = Pod/Classes/MessagePackPacker.h; sourceTree = "<group>"; };
+		D736A0D41F917097005ABE81 /* MessagePackPacker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessagePackPacker.m; path = Pod/Classes/MessagePackPacker.m; sourceTree = "<group>"; };
+		D736A0D51F917097005ABE81 /* MessagePackParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagePackParser.h; path = Pod/Classes/MessagePackParser.h; sourceTree = "<group>"; };
+		D736A0D61F917097005ABE81 /* MessagePackParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessagePackParser.m; path = Pod/Classes/MessagePackParser.m; sourceTree = "<group>"; };
+		D736A0D71F917097005ABE81 /* MessagePackParser+Streaming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MessagePackParser+Streaming.h"; path = "Pod/Classes/MessagePackParser+Streaming.h"; sourceTree = "<group>"; };
+		D736A0D81F917097005ABE81 /* MessagePackParser+Streaming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MessagePackParser+Streaming.m"; path = "Pod/Classes/MessagePackParser+Streaming.m"; sourceTree = "<group>"; };
+		D736A0D91F917097005ABE81 /* NSArray+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+MessagePack.h"; path = "Pod/Classes/NSArray+MessagePack.h"; sourceTree = "<group>"; };
+		D736A0DA1F917097005ABE81 /* NSArray+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MessagePack.m"; path = "Pod/Classes/NSArray+MessagePack.m"; sourceTree = "<group>"; };
+		D736A0DB1F917097005ABE81 /* NSData+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+MessagePack.h"; path = "Pod/Classes/NSData+MessagePack.h"; sourceTree = "<group>"; };
+		D736A0DC1F917097005ABE81 /* NSData+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+MessagePack.m"; path = "Pod/Classes/NSData+MessagePack.m"; sourceTree = "<group>"; };
+		D736A0DD1F917097005ABE81 /* NSDictionary+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MessagePack.h"; path = "Pod/Classes/NSDictionary+MessagePack.h"; sourceTree = "<group>"; };
+		D736A0DE1F917097005ABE81 /* NSDictionary+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MessagePack.m"; path = "Pod/Classes/NSDictionary+MessagePack.m"; sourceTree = "<group>"; };
+		D736A0DF1F917097005ABE81 /* NSNull+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNull+MessagePack.h"; path = "Pod/Classes/NSNull+MessagePack.h"; sourceTree = "<group>"; };
+		D736A0E01F917097005ABE81 /* NSNull+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNull+MessagePack.m"; path = "Pod/Classes/NSNull+MessagePack.m"; sourceTree = "<group>"; };
+		D736A0E11F917097005ABE81 /* NSNumber+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+MessagePack.h"; path = "Pod/Classes/NSNumber+MessagePack.h"; sourceTree = "<group>"; };
+		D736A0E21F917097005ABE81 /* NSNumber+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+MessagePack.m"; path = "Pod/Classes/NSNumber+MessagePack.m"; sourceTree = "<group>"; };
+		D736A0E31F917097005ABE81 /* NSString+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MessagePack.h"; path = "Pod/Classes/NSString+MessagePack.h"; sourceTree = "<group>"; };
+		D736A0E41F917097005ABE81 /* NSString+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MessagePack.m"; path = "Pod/Classes/NSString+MessagePack.m"; sourceTree = "<group>"; };
+		D736A0F91F9170D7005ABE81 /* msgpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = msgpack.h; path = Pod/Classes/msgpack_src/msgpack.h; sourceTree = "<group>"; };
+		D736A0FA1F9170D7005ABE81 /* objectc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = objectc.c; path = Pod/Classes/msgpack_src/objectc.c; sourceTree = "<group>"; };
+		D736A0FB1F9170D7005ABE81 /* unpack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = unpack.c; path = Pod/Classes/msgpack_src/unpack.c; sourceTree = "<group>"; };
+		D736A0FC1F9170D7005ABE81 /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = version.c; path = Pod/Classes/msgpack_src/version.c; sourceTree = "<group>"; };
+		D736A0FD1F9170D7005ABE81 /* vrefbuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vrefbuffer.c; path = Pod/Classes/msgpack_src/vrefbuffer.c; sourceTree = "<group>"; };
+		D736A0FE1F9170D7005ABE81 /* zone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = zone.c; path = Pod/Classes/msgpack_src/zone.c; sourceTree = "<group>"; };
+		D736A1061F917112005ABE81 /* object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = object.h; path = Pod/Classes/msgpack_src/msgpack/object.h; sourceTree = "<group>"; };
+		D736A1071F917112005ABE81 /* pack_define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pack_define.h; path = Pod/Classes/msgpack_src/msgpack/pack_define.h; sourceTree = "<group>"; };
+		D736A1081F917112005ABE81 /* pack_template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pack_template.h; path = Pod/Classes/msgpack_src/msgpack/pack_template.h; sourceTree = "<group>"; };
+		D736A1091F917112005ABE81 /* pack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pack.h; path = Pod/Classes/msgpack_src/msgpack/pack.h; sourceTree = "<group>"; };
+		D736A10A1F917112005ABE81 /* sbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sbuffer.h; path = Pod/Classes/msgpack_src/msgpack/sbuffer.h; sourceTree = "<group>"; };
+		D736A10B1F917112005ABE81 /* sysdep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sysdep.h; path = Pod/Classes/msgpack_src/msgpack/sysdep.h; sourceTree = "<group>"; };
+		D736A10C1F917112005ABE81 /* unpack_define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unpack_define.h; path = Pod/Classes/msgpack_src/msgpack/unpack_define.h; sourceTree = "<group>"; };
+		D736A10D1F917112005ABE81 /* unpack_template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unpack_template.h; path = Pod/Classes/msgpack_src/msgpack/unpack_template.h; sourceTree = "<group>"; };
+		D736A10E1F917112005ABE81 /* unpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unpack.h; path = Pod/Classes/msgpack_src/msgpack/unpack.h; sourceTree = "<group>"; };
+		D736A10F1F917112005ABE81 /* version_master.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = version_master.h; path = Pod/Classes/msgpack_src/msgpack/version_master.h; sourceTree = "<group>"; };
+		D736A1101F917112005ABE81 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = version.h; path = Pod/Classes/msgpack_src/msgpack/version.h; sourceTree = "<group>"; };
+		D736A1111F917112005ABE81 /* vrefbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vrefbuffer.h; path = Pod/Classes/msgpack_src/msgpack/vrefbuffer.h; sourceTree = "<group>"; };
+		D736A1121F917112005ABE81 /* zbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zbuffer.h; path = Pod/Classes/msgpack_src/msgpack/zbuffer.h; sourceTree = "<group>"; };
+		D736A1131F917112005ABE81 /* zone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zone.h; path = Pod/Classes/msgpack_src/msgpack/zone.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,8 +108,10 @@
 		D736A0AC1F90F760005ABE81 = {
 			isa = PBXGroup;
 			children = (
-				D736A0B81F90F760005ABE81 /* msgpack */,
-				D736A0C41F90FA16005ABE81 /* Classes */,
+				D736A0B91F90F760005ABE81 /* msgpack.h */,
+				D736A0BA1F90F760005ABE81 /* Info.plist */,
+				D736A0F81F9170A2005ABE81 /* Source */,
+				D736A1051F9170DF005ABE81 /* MessagePack */,
 				D736A0B71F90F760005ABE81 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,13 +124,57 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D736A0B81F90F760005ABE81 /* msgpack */ = {
+		D736A0F81F9170A2005ABE81 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				D736A0B91F90F760005ABE81 /* msgpack.h */,
-				D736A0BA1F90F760005ABE81 /* Info.plist */,
+				D736A0D21F917097005ABE81 /* MessagePack.h */,
+				D736A0D31F917097005ABE81 /* MessagePackPacker.h */,
+				D736A0D41F917097005ABE81 /* MessagePackPacker.m */,
+				D736A0D51F917097005ABE81 /* MessagePackParser.h */,
+				D736A0D61F917097005ABE81 /* MessagePackParser.m */,
+				D736A0D71F917097005ABE81 /* MessagePackParser+Streaming.h */,
+				D736A0D81F917097005ABE81 /* MessagePackParser+Streaming.m */,
+				D736A0D91F917097005ABE81 /* NSArray+MessagePack.h */,
+				D736A0DA1F917097005ABE81 /* NSArray+MessagePack.m */,
+				D736A0DB1F917097005ABE81 /* NSData+MessagePack.h */,
+				D736A0DC1F917097005ABE81 /* NSData+MessagePack.m */,
+				D736A0DD1F917097005ABE81 /* NSDictionary+MessagePack.h */,
+				D736A0DE1F917097005ABE81 /* NSDictionary+MessagePack.m */,
+				D736A0DF1F917097005ABE81 /* NSNull+MessagePack.h */,
+				D736A0E01F917097005ABE81 /* NSNull+MessagePack.m */,
+				D736A0E11F917097005ABE81 /* NSNumber+MessagePack.h */,
+				D736A0E21F917097005ABE81 /* NSNumber+MessagePack.m */,
+				D736A0E31F917097005ABE81 /* NSString+MessagePack.h */,
+				D736A0E41F917097005ABE81 /* NSString+MessagePack.m */,
 			);
-			path = msgpack;
+			name = Source;
+			sourceTree = "<group>";
+		};
+		D736A1051F9170DF005ABE81 /* MessagePack */ = {
+			isa = PBXGroup;
+			children = (
+				D736A1061F917112005ABE81 /* object.h */,
+				D736A1071F917112005ABE81 /* pack_define.h */,
+				D736A1081F917112005ABE81 /* pack_template.h */,
+				D736A1091F917112005ABE81 /* pack.h */,
+				D736A10A1F917112005ABE81 /* sbuffer.h */,
+				D736A10B1F917112005ABE81 /* sysdep.h */,
+				D736A10C1F917112005ABE81 /* unpack_define.h */,
+				D736A10D1F917112005ABE81 /* unpack_template.h */,
+				D736A10E1F917112005ABE81 /* unpack.h */,
+				D736A10F1F917112005ABE81 /* version_master.h */,
+				D736A1101F917112005ABE81 /* version.h */,
+				D736A1111F917112005ABE81 /* vrefbuffer.h */,
+				D736A1121F917112005ABE81 /* zbuffer.h */,
+				D736A1131F917112005ABE81 /* zone.h */,
+				D736A0F91F9170D7005ABE81 /* msgpack.h */,
+				D736A0FA1F9170D7005ABE81 /* objectc.c */,
+				D736A0FB1F9170D7005ABE81 /* unpack.c */,
+				D736A0FC1F9170D7005ABE81 /* version.c */,
+				D736A0FD1F9170D7005ABE81 /* vrefbuffer.c */,
+				D736A0FE1F9170D7005ABE81 /* zone.c */,
+			);
+			name = MessagePack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -62,7 +184,32 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D736A1211F917112005ABE81 /* zone.h in Headers */,
+				D736A0EC1F917097005ABE81 /* NSArray+MessagePack.h in Headers */,
+				D736A0E61F917097005ABE81 /* MessagePackPacker.h in Headers */,
+				D736A1161F917112005ABE81 /* pack_template.h in Headers */,
+				D736A0F61F917097005ABE81 /* NSString+MessagePack.h in Headers */,
+				D736A11B1F917112005ABE81 /* unpack_template.h in Headers */,
+				D736A1191F917112005ABE81 /* sysdep.h in Headers */,
+				D736A1181F917112005ABE81 /* sbuffer.h in Headers */,
 				D736A0BB1F90F760005ABE81 /* msgpack.h in Headers */,
+				D736A11A1F917112005ABE81 /* unpack_define.h in Headers */,
+				D736A11D1F917112005ABE81 /* version_master.h in Headers */,
+				D736A0EA1F917097005ABE81 /* MessagePackParser+Streaming.h in Headers */,
+				D736A0FF1F9170D7005ABE81 /* msgpack.h in Headers */,
+				D736A1151F917112005ABE81 /* pack_define.h in Headers */,
+				D736A0E81F917097005ABE81 /* MessagePackParser.h in Headers */,
+				D736A11C1F917112005ABE81 /* unpack.h in Headers */,
+				D736A0E51F917097005ABE81 /* MessagePack.h in Headers */,
+				D736A1201F917112005ABE81 /* zbuffer.h in Headers */,
+				D736A0F21F917097005ABE81 /* NSNull+MessagePack.h in Headers */,
+				D736A1171F917112005ABE81 /* pack.h in Headers */,
+				D736A0F01F917097005ABE81 /* NSDictionary+MessagePack.h in Headers */,
+				D736A0EE1F917097005ABE81 /* NSData+MessagePack.h in Headers */,
+				D736A0F41F917097005ABE81 /* NSNumber+MessagePack.h in Headers */,
+				D736A1141F917112005ABE81 /* object.h in Headers */,
+				D736A11E1F917112005ABE81 /* version.h in Headers */,
+				D736A11F1F917112005ABE81 /* vrefbuffer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +270,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D736A0C51F90FA16005ABE81 /* Classes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +280,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D736A0E71F917097005ABE81 /* MessagePackPacker.m in Sources */,
+				D736A0EF1F917097005ABE81 /* NSData+MessagePack.m in Sources */,
+				D736A1001F9170D7005ABE81 /* objectc.c in Sources */,
+				D736A0F51F917097005ABE81 /* NSNumber+MessagePack.m in Sources */,
+				D736A1021F9170D7005ABE81 /* version.c in Sources */,
+				D736A1011F9170D7005ABE81 /* unpack.c in Sources */,
+				D736A0F71F917097005ABE81 /* NSString+MessagePack.m in Sources */,
+				D736A1031F9170D7005ABE81 /* vrefbuffer.c in Sources */,
+				D736A0EB1F917097005ABE81 /* MessagePackParser+Streaming.m in Sources */,
+				D736A1041F9170D7005ABE81 /* zone.c in Sources */,
+				D736A0F11F917097005ABE81 /* NSDictionary+MessagePack.m in Sources */,
+				D736A0E91F917097005ABE81 /* MessagePackParser.m in Sources */,
+				D736A0F31F917097005ABE81 /* NSNull+MessagePack.m in Sources */,
+				D736A0ED1F917097005ABE81 /* NSArray+MessagePack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
