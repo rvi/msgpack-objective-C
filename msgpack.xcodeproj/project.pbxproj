@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		D736A0BB1F90F760005ABE81 /* msgpack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0B91F90F760005ABE81 /* msgpack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D736A0E51F917097005ABE81 /* MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D21F917097005ABE81 /* MessagePack.h */; };
-		D736A0E61F917097005ABE81 /* MessagePackPacker.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D31F917097005ABE81 /* MessagePackPacker.h */; };
+		D736A0E51F917097005ABE81 /* MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D21F917097005ABE81 /* MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D736A0E61F917097005ABE81 /* MessagePackPacker.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D31F917097005ABE81 /* MessagePackPacker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D736A0E71F917097005ABE81 /* MessagePackPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0D41F917097005ABE81 /* MessagePackPacker.m */; };
-		D736A0E81F917097005ABE81 /* MessagePackParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D51F917097005ABE81 /* MessagePackParser.h */; };
+		D736A0E81F917097005ABE81 /* MessagePackParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D51F917097005ABE81 /* MessagePackParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D736A0E91F917097005ABE81 /* MessagePackParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0D61F917097005ABE81 /* MessagePackParser.m */; };
-		D736A0EA1F917097005ABE81 /* MessagePackParser+Streaming.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D71F917097005ABE81 /* MessagePackParser+Streaming.h */; };
+		D736A0EA1F917097005ABE81 /* MessagePackParser+Streaming.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D71F917097005ABE81 /* MessagePackParser+Streaming.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D736A0EB1F917097005ABE81 /* MessagePackParser+Streaming.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0D81F917097005ABE81 /* MessagePackParser+Streaming.m */; };
-		D736A0EC1F917097005ABE81 /* NSArray+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D91F917097005ABE81 /* NSArray+MessagePack.h */; };
+		D736A0EC1F917097005ABE81 /* NSArray+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D91F917097005ABE81 /* NSArray+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D736A0ED1F917097005ABE81 /* NSArray+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0DA1F917097005ABE81 /* NSArray+MessagePack.m */; };
-		D736A0EE1F917097005ABE81 /* NSData+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0DB1F917097005ABE81 /* NSData+MessagePack.h */; };
+		D736A0EE1F917097005ABE81 /* NSData+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0DB1F917097005ABE81 /* NSData+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D736A0EF1F917097005ABE81 /* NSData+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0DC1F917097005ABE81 /* NSData+MessagePack.m */; };
-		D736A0F01F917097005ABE81 /* NSDictionary+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0DD1F917097005ABE81 /* NSDictionary+MessagePack.h */; };
+		D736A0F01F917097005ABE81 /* NSDictionary+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0DD1F917097005ABE81 /* NSDictionary+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D736A0F11F917097005ABE81 /* NSDictionary+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0DE1F917097005ABE81 /* NSDictionary+MessagePack.m */; };
-		D736A0F21F917097005ABE81 /* NSNull+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0DF1F917097005ABE81 /* NSNull+MessagePack.h */; };
+		D736A0F21F917097005ABE81 /* NSNull+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0DF1F917097005ABE81 /* NSNull+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D736A0F31F917097005ABE81 /* NSNull+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0E01F917097005ABE81 /* NSNull+MessagePack.m */; };
-		D736A0F41F917097005ABE81 /* NSNumber+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0E11F917097005ABE81 /* NSNumber+MessagePack.h */; };
+		D736A0F41F917097005ABE81 /* NSNumber+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0E11F917097005ABE81 /* NSNumber+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D736A0F51F917097005ABE81 /* NSNumber+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0E21F917097005ABE81 /* NSNumber+MessagePack.m */; };
-		D736A0F61F917097005ABE81 /* NSString+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0E31F917097005ABE81 /* NSString+MessagePack.h */; };
+		D736A0F61F917097005ABE81 /* NSString+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0E31F917097005ABE81 /* NSString+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D736A0F71F917097005ABE81 /* NSString+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0E41F917097005ABE81 /* NSString+MessagePack.m */; };
 		D736A0FF1F9170D7005ABE81 /* msgpack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0F91F9170D7005ABE81 /* msgpack.h */; };
 		D736A1001F9170D7005ABE81 /* objectc.c in Sources */ = {isa = PBXBuildFile; fileRef = D736A0FA1F9170D7005ABE81 /* objectc.c */; };
@@ -186,27 +186,27 @@
 			files = (
 				D736A1211F917112005ABE81 /* zone.h in Headers */,
 				D736A0EC1F917097005ABE81 /* NSArray+MessagePack.h in Headers */,
-				D736A0E61F917097005ABE81 /* MessagePackPacker.h in Headers */,
-				D736A1161F917112005ABE81 /* pack_template.h in Headers */,
+				D736A0E81F917097005ABE81 /* MessagePackParser.h in Headers */,
 				D736A0F61F917097005ABE81 /* NSString+MessagePack.h in Headers */,
+				D736A0F21F917097005ABE81 /* NSNull+MessagePack.h in Headers */,
+				D736A0EA1F917097005ABE81 /* MessagePackParser+Streaming.h in Headers */,
+				D736A0F41F917097005ABE81 /* NSNumber+MessagePack.h in Headers */,
+				D736A0E61F917097005ABE81 /* MessagePackPacker.h in Headers */,
+				D736A0EE1F917097005ABE81 /* NSData+MessagePack.h in Headers */,
+				D736A0F01F917097005ABE81 /* NSDictionary+MessagePack.h in Headers */,
+				D736A1161F917112005ABE81 /* pack_template.h in Headers */,
 				D736A11B1F917112005ABE81 /* unpack_template.h in Headers */,
 				D736A1191F917112005ABE81 /* sysdep.h in Headers */,
 				D736A1181F917112005ABE81 /* sbuffer.h in Headers */,
 				D736A0BB1F90F760005ABE81 /* msgpack.h in Headers */,
 				D736A11A1F917112005ABE81 /* unpack_define.h in Headers */,
 				D736A11D1F917112005ABE81 /* version_master.h in Headers */,
-				D736A0EA1F917097005ABE81 /* MessagePackParser+Streaming.h in Headers */,
 				D736A0FF1F9170D7005ABE81 /* msgpack.h in Headers */,
 				D736A1151F917112005ABE81 /* pack_define.h in Headers */,
-				D736A0E81F917097005ABE81 /* MessagePackParser.h in Headers */,
 				D736A11C1F917112005ABE81 /* unpack.h in Headers */,
 				D736A0E51F917097005ABE81 /* MessagePack.h in Headers */,
 				D736A1201F917112005ABE81 /* zbuffer.h in Headers */,
-				D736A0F21F917097005ABE81 /* NSNull+MessagePack.h in Headers */,
 				D736A1171F917112005ABE81 /* pack.h in Headers */,
-				D736A0F01F917097005ABE81 /* NSDictionary+MessagePack.h in Headers */,
-				D736A0EE1F917097005ABE81 /* NSData+MessagePack.h in Headers */,
-				D736A0F41F917097005ABE81 /* NSNumber+MessagePack.h in Headers */,
 				D736A1141F917112005ABE81 /* object.h in Headers */,
 				D736A11E1F917112005ABE81 /* version.h in Headers */,
 				D736A11F1F917112005ABE81 /* vrefbuffer.h in Headers */,
