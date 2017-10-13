@@ -15,7 +15,6 @@
 		D736A0B61F90F760005ABE81 /* msgpack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = msgpack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D736A0B91F90F760005ABE81 /* msgpack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = msgpack.h; sourceTree = "<group>"; };
 		D736A0BA1F90F760005ABE81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D736A0C31F90F7EF005ABE81 /* msgPack.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = msgPack.modulemap; sourceTree = "<group>"; };
 		D736A0C41F90FA16005ABE81 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Classes; path = Pod/Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -33,7 +32,6 @@
 		D736A0AC1F90F760005ABE81 = {
 			isa = PBXGroup;
 			children = (
-				D736A0C31F90F7EF005ABE81 /* msgPack.modulemap */,
 				D736A0B81F90F760005ABE81 /* msgpack */,
 				D736A0C41F90FA16005ABE81 /* Classes */,
 				D736A0B71F90F760005ABE81 /* Products */,
@@ -252,7 +250,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = msgPack.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.remyvirin.msgpack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -271,7 +268,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = msgPack.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.remyvirin.msgpack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char msgpackVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <msgpack/PublicHeader.h>
 
-
+#import "MessagePack.h"
