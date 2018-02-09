@@ -12,7 +12,6 @@
 @interface MessagePackParser (Streaming)
 
 - (id)init;
-- (id)initWithBufferSize:(int)bufferSize;
 - (void)feed:(NSData*)rawData;
 - (id)next;
 
