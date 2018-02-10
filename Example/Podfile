@@ -1,7 +1,7 @@
-target 'msgpack', :exclusive => true do
+target 'msgpack'  do
   pod 'msgpack', :path => "../"
 end
 
-target 'Tests', :exclusive => true do
+target 'Tests' do
   pod 'msgpack', :path => "../"
 end
