@@ -6,7 +6,11 @@
 //
 //
 
+#if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
+#else
+#import <AppKit/AppKit.h>
+#endif
 
 //! Project version number for msgpack.
 FOUNDATION_EXPORT double msgpackVersionNumber;

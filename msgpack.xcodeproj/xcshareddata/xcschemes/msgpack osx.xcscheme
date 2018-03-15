@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "0920"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D736A0B51F90F760005ABE81"
-               BuildableName = "msgpack.framework"
-               BlueprintName = "msgpack"
+               BlueprintIdentifier = "C641B562205B23660005E12A"
+               BuildableName = "msgpack (osx).framework"
+               BlueprintName = "msgpack (osx)"
                ReferencedContainer = "container:msgpack.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D736A0B51F90F760005ABE81"
-            BuildableName = "msgpack.framework"
-            BlueprintName = "msgpack"
+            BlueprintIdentifier = "C641B562205B23660005E12A"
+            BuildableName = "msgpack (osx).framework"
+            BlueprintName = "msgpack (osx)"
             ReferencedContainer = "container:msgpack.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +65,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D736A0B51F90F760005ABE81"
-            BuildableName = "msgpack.framework"
-            BlueprintName = "msgpack"
+            BlueprintIdentifier = "C641B562205B23660005E12A"
+            BuildableName = "msgpack (osx).framework"
+            BlueprintName = "msgpack (osx)"
             ReferencedContainer = "container:msgpack.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
