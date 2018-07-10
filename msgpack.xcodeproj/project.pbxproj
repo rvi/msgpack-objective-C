@@ -443,7 +443,7 @@
 				INFOPLIST_OUTPUT_FORMAT = binary;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PLIST_FILE_OUTPUT_FORMAT = binary;
 				PRODUCT_BUNDLE_IDENTIFIER = com.remyvirin.msgpack;
 				PRODUCT_NAME = msgpack;
@@ -466,7 +466,7 @@
 				INFOPLIST_OUTPUT_FORMAT = binary;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PLIST_FILE_OUTPUT_FORMAT = binary;
 				PRODUCT_BUNDLE_IDENTIFIER = com.remyvirin.msgpack;
 				PRODUCT_NAME = msgpack;
