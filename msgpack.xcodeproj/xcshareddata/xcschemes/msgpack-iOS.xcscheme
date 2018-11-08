@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D736A0B51F90F760005ABE81"
                BuildableName = "msgpack.framework"
-               BlueprintName = "msgpack"
+               BlueprintName = "msgpack-iOS"
                ReferencedContainer = "container:msgpack.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,7 +47,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D736A0B51F90F760005ABE81"
             BuildableName = "msgpack.framework"
-            BlueprintName = "msgpack"
+            BlueprintName = "msgpack-iOS"
             ReferencedContainer = "container:msgpack.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,7 +65,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D736A0B51F90F760005ABE81"
             BuildableName = "msgpack.framework"
-            BlueprintName = "msgpack"
+            BlueprintName = "msgpack-iOS"
             ReferencedContainer = "container:msgpack.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

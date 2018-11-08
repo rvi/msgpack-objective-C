@@ -3,9 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
-	<key>CFBundleDisplayName</key>
-	<string>msgpack</string>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -20,7 +18,5 @@
 	<string>$(SHARED_VERSION_NUMBER)</string>
 	<key>CFBundleVersion</key>
 	<string>$(SHARED_BUILD_NUMBER)</string>
-	<key>NSPrincipalClass</key>
-	<string></string>
 </dict>
 </plist>
