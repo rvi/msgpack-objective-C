@@ -171,11 +171,8 @@
 
 /* Begin PBXFileReference section */
 		D7299FFC21944A3700D8260F /* msgpack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = msgpack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7299FFF21944A3700D8260F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D729A00921944A5B00D8260F /* msgpack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = msgpack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D729A00C21944A5B00D8260F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D729A01621944A7100D8260F /* msgpack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = msgpack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D729A01921944A7100D8260F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D736A0B61F90F760005ABE81 /* msgpack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = msgpack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D736A0B91F90F760005ABE81 /* msgpack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = msgpack.h; path = msgpack/msgpack.h; sourceTree = "<group>"; };
 		D736A0BA1F90F760005ABE81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = msgpack/Info.plist; sourceTree = "<group>"; };
@@ -252,30 +249,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D7299FFD21944A3700D8260F /* msgpack-macOS */ = {
-			isa = PBXGroup;
-			children = (
-				D7299FFF21944A3700D8260F /* Info.plist */,
-			);
-			path = "msgpack-macOS";
-			sourceTree = "<group>";
-		};
-		D729A00A21944A5B00D8260F /* msgpack-tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				D729A00C21944A5B00D8260F /* Info.plist */,
-			);
-			path = "msgpack-tvOS";
-			sourceTree = "<group>";
-		};
-		D729A01721944A7100D8260F /* msgpack-watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				D729A01921944A7100D8260F /* Info.plist */,
-			);
-			path = "msgpack-watchOS";
-			sourceTree = "<group>";
-		};
 		D736A0AC1F90F760005ABE81 = {
 			isa = PBXGroup;
 			children = (
@@ -283,9 +256,6 @@
 				D736A0BA1F90F760005ABE81 /* Info.plist */,
 				D736A0F81F9170A2005ABE81 /* Source */,
 				D736A1051F9170DF005ABE81 /* MessagePack */,
-				D7299FFD21944A3700D8260F /* msgpack-macOS */,
-				D729A00A21944A5B00D8260F /* msgpack-tvOS */,
-				D729A01721944A7100D8260F /* msgpack-watchOS */,
 				D736A0B71F90F760005ABE81 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -753,7 +723,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "msgpack-macOS/Info.plist";
+				INFOPLIST_FILE = msgpack/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
@@ -790,7 +760,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "msgpack-macOS/Info.plist";
+				INFOPLIST_FILE = msgpack/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
@@ -824,7 +794,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "msgpack-tvOS/Info.plist";
+				INFOPLIST_FILE = msgpack/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -860,7 +830,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "msgpack-tvOS/Info.plist";
+				INFOPLIST_FILE = msgpack/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_FAST_MATH = YES;
@@ -895,7 +865,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "msgpack-watchOS/Info.plist";
+				INFOPLIST_FILE = msgpack/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -931,7 +901,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "msgpack-watchOS/Info.plist";
+				INFOPLIST_FILE = msgpack/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_FAST_MATH = YES;
