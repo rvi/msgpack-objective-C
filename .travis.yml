@@ -1,11 +1,6 @@
 language: objective-c
-before_install:
-  - gem install cocoapods
 before_script:
-  - brew update
-  - brew upgrade xctool && brew cleanup xctool
-  - xctool --version
   - cd Example
   - pod install
-script: 
-- xcodebuild -workspace msgpack.xcworkspace -scheme msgpack -sdk iphonesimulator -destination 'name=iPhone 6,OS=8.1' clean test
+script:
+  - xcodebuild -workspace msgpack.xcworkspace -scheme msgpack -sdk iphonesimulator clean test
