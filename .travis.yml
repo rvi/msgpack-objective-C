@@ -1,6 +1,7 @@
 language: objective-c
+osx_image: xcode10.2
 before_script:
   - cd Example
   - pod install
 script:
-  - xcodebuild -workspace msgpack.xcworkspace -scheme msgpack -sdk iphonesimulator clean test
+  - xcodebuild -workspace msgpack.xcworkspace -scheme msgpack-example -destination 'platform=iOS Simulator,OS=12.2,name=iPhone Xs' clean test
