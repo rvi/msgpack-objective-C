@@ -7,6 +7,126 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D729A01E2194532E00D8260F /* object.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1061F917112005ABE81 /* object.h */; };
+		D729A01F2194532F00D8260F /* object.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1061F917112005ABE81 /* object.h */; };
+		D729A0202194533000D8260F /* object.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1061F917112005ABE81 /* object.h */; };
+		D729A0212194533400D8260F /* pack_define.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1071F917112005ABE81 /* pack_define.h */; };
+		D729A0222194533500D8260F /* pack_define.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1071F917112005ABE81 /* pack_define.h */; };
+		D729A0232194533600D8260F /* pack_define.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1071F917112005ABE81 /* pack_define.h */; };
+		D729A0242194533A00D8260F /* pack_template.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1081F917112005ABE81 /* pack_template.h */; };
+		D729A0252194533B00D8260F /* pack_template.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1081F917112005ABE81 /* pack_template.h */; };
+		D729A0262194533B00D8260F /* pack_template.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1081F917112005ABE81 /* pack_template.h */; };
+		D729A0272194533F00D8260F /* pack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1091F917112005ABE81 /* pack.h */; };
+		D729A0282194533F00D8260F /* pack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1091F917112005ABE81 /* pack.h */; };
+		D729A0292194534000D8260F /* pack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1091F917112005ABE81 /* pack.h */; };
+		D729A02A2194534400D8260F /* sbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10A1F917112005ABE81 /* sbuffer.h */; };
+		D729A02B2194534500D8260F /* sbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10A1F917112005ABE81 /* sbuffer.h */; };
+		D729A02C2194534600D8260F /* sbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10A1F917112005ABE81 /* sbuffer.h */; };
+		D729A02D2194534A00D8260F /* sysdep.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10B1F917112005ABE81 /* sysdep.h */; };
+		D729A02E2194534B00D8260F /* sysdep.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10B1F917112005ABE81 /* sysdep.h */; };
+		D729A02F2194534C00D8260F /* sysdep.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10B1F917112005ABE81 /* sysdep.h */; };
+		D729A0302194535000D8260F /* unpack_define.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10C1F917112005ABE81 /* unpack_define.h */; };
+		D729A0312194535100D8260F /* unpack_define.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10C1F917112005ABE81 /* unpack_define.h */; };
+		D729A0322194535200D8260F /* unpack_define.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10C1F917112005ABE81 /* unpack_define.h */; };
+		D729A033219453AA00D8260F /* unpack_template.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10D1F917112005ABE81 /* unpack_template.h */; };
+		D729A034219453AB00D8260F /* unpack_template.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10D1F917112005ABE81 /* unpack_template.h */; };
+		D729A035219453AC00D8260F /* unpack_template.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10D1F917112005ABE81 /* unpack_template.h */; };
+		D729A036219453AF00D8260F /* unpack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10E1F917112005ABE81 /* unpack.h */; };
+		D729A037219453B000D8260F /* unpack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10E1F917112005ABE81 /* unpack.h */; };
+		D729A038219453B100D8260F /* unpack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10E1F917112005ABE81 /* unpack.h */; };
+		D729A039219453B700D8260F /* version_master.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10F1F917112005ABE81 /* version_master.h */; };
+		D729A03A219453B800D8260F /* version_master.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10F1F917112005ABE81 /* version_master.h */; };
+		D729A03B219453B800D8260F /* version_master.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A10F1F917112005ABE81 /* version_master.h */; };
+		D729A03C219453BD00D8260F /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1101F917112005ABE81 /* version.h */; };
+		D729A03D219453BE00D8260F /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1101F917112005ABE81 /* version.h */; };
+		D729A03E219453BF00D8260F /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1101F917112005ABE81 /* version.h */; };
+		D729A03F219453C300D8260F /* vrefbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1111F917112005ABE81 /* vrefbuffer.h */; };
+		D729A040219453C400D8260F /* vrefbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1111F917112005ABE81 /* vrefbuffer.h */; };
+		D729A041219453C500D8260F /* vrefbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1111F917112005ABE81 /* vrefbuffer.h */; };
+		D729A042219453C900D8260F /* zbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1121F917112005ABE81 /* zbuffer.h */; };
+		D729A043219453CA00D8260F /* zbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1121F917112005ABE81 /* zbuffer.h */; };
+		D729A044219453CB00D8260F /* zbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1121F917112005ABE81 /* zbuffer.h */; };
+		D729A045219453CF00D8260F /* zone.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1131F917112005ABE81 /* zone.h */; };
+		D729A046219453D000D8260F /* zone.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1131F917112005ABE81 /* zone.h */; };
+		D729A047219453D100D8260F /* zone.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A1131F917112005ABE81 /* zone.h */; };
+		D729A048219453DC00D8260F /* msgpack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0F91F9170D7005ABE81 /* msgpack.h */; };
+		D729A049219453DD00D8260F /* msgpack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0F91F9170D7005ABE81 /* msgpack.h */; };
+		D729A04A219453DE00D8260F /* msgpack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0F91F9170D7005ABE81 /* msgpack.h */; };
+		D729A04B219453E300D8260F /* objectc.c in Sources */ = {isa = PBXBuildFile; fileRef = D736A0FA1F9170D7005ABE81 /* objectc.c */; };
+		D729A04C219453E400D8260F /* objectc.c in Sources */ = {isa = PBXBuildFile; fileRef = D736A0FA1F9170D7005ABE81 /* objectc.c */; };
+		D729A04D219453E500D8260F /* objectc.c in Sources */ = {isa = PBXBuildFile; fileRef = D736A0FA1F9170D7005ABE81 /* objectc.c */; };
+		D729A04E219453EA00D8260F /* unpack.c in Sources */ = {isa = PBXBuildFile; fileRef = D736A0FB1F9170D7005ABE81 /* unpack.c */; };
+		D729A04F219453EB00D8260F /* unpack.c in Sources */ = {isa = PBXBuildFile; fileRef = D736A0FB1F9170D7005ABE81 /* unpack.c */; };
+		D729A050219453EC00D8260F /* unpack.c in Sources */ = {isa = PBXBuildFile; fileRef = D736A0FB1F9170D7005ABE81 /* unpack.c */; };
+		D729A051219453F100D8260F /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = D736A0FC1F9170D7005ABE81 /* version.c */; };
+		D729A052219453F200D8260F /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = D736A0FC1F9170D7005ABE81 /* version.c */; };
+		D729A053219453F300D8260F /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = D736A0FC1F9170D7005ABE81 /* version.c */; };
+		D729A054219453F800D8260F /* vrefbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = D736A0FD1F9170D7005ABE81 /* vrefbuffer.c */; };
+		D729A055219453F900D8260F /* vrefbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = D736A0FD1F9170D7005ABE81 /* vrefbuffer.c */; };
+		D729A056219453FA00D8260F /* vrefbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = D736A0FD1F9170D7005ABE81 /* vrefbuffer.c */; };
+		D729A057219453FF00D8260F /* zone.c in Sources */ = {isa = PBXBuildFile; fileRef = D736A0FE1F9170D7005ABE81 /* zone.c */; };
+		D729A0582194540000D8260F /* zone.c in Sources */ = {isa = PBXBuildFile; fileRef = D736A0FE1F9170D7005ABE81 /* zone.c */; };
+		D729A0592194540100D8260F /* zone.c in Sources */ = {isa = PBXBuildFile; fileRef = D736A0FE1F9170D7005ABE81 /* zone.c */; };
+		D729A05A2194541900D8260F /* MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D21F917097005ABE81 /* MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A05B2194541900D8260F /* MessagePackPacker.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D31F917097005ABE81 /* MessagePackPacker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A05C2194541900D8260F /* MessagePackPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0D41F917097005ABE81 /* MessagePackPacker.m */; };
+		D729A05D2194541900D8260F /* MessagePackParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D51F917097005ABE81 /* MessagePackParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A05E2194541900D8260F /* MessagePackParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0D61F917097005ABE81 /* MessagePackParser.m */; };
+		D729A05F2194541900D8260F /* MessagePackParser+Streaming.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D71F917097005ABE81 /* MessagePackParser+Streaming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A0602194541900D8260F /* MessagePackParser+Streaming.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0D81F917097005ABE81 /* MessagePackParser+Streaming.m */; };
+		D729A0612194541900D8260F /* NSArray+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D91F917097005ABE81 /* NSArray+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A0622194541900D8260F /* NSArray+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0DA1F917097005ABE81 /* NSArray+MessagePack.m */; };
+		D729A0632194541900D8260F /* NSData+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0DB1F917097005ABE81 /* NSData+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A0642194541900D8260F /* NSData+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0DC1F917097005ABE81 /* NSData+MessagePack.m */; };
+		D729A0652194541900D8260F /* NSDictionary+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0DD1F917097005ABE81 /* NSDictionary+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A0662194541900D8260F /* NSDictionary+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0DE1F917097005ABE81 /* NSDictionary+MessagePack.m */; };
+		D729A0672194541900D8260F /* NSNull+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0DF1F917097005ABE81 /* NSNull+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A0682194541900D8260F /* NSNull+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0E01F917097005ABE81 /* NSNull+MessagePack.m */; };
+		D729A0692194541900D8260F /* NSNumber+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0E11F917097005ABE81 /* NSNumber+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A06A2194541900D8260F /* NSNumber+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0E21F917097005ABE81 /* NSNumber+MessagePack.m */; };
+		D729A06B2194541900D8260F /* NSString+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0E31F917097005ABE81 /* NSString+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A06C2194541900D8260F /* NSString+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0E41F917097005ABE81 /* NSString+MessagePack.m */; };
+		D729A06D2194541A00D8260F /* MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D21F917097005ABE81 /* MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A06E2194541A00D8260F /* MessagePackPacker.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D31F917097005ABE81 /* MessagePackPacker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A06F2194541A00D8260F /* MessagePackPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0D41F917097005ABE81 /* MessagePackPacker.m */; };
+		D729A0702194541A00D8260F /* MessagePackParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D51F917097005ABE81 /* MessagePackParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A0712194541A00D8260F /* MessagePackParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0D61F917097005ABE81 /* MessagePackParser.m */; };
+		D729A0722194541A00D8260F /* MessagePackParser+Streaming.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D71F917097005ABE81 /* MessagePackParser+Streaming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A0732194541A00D8260F /* MessagePackParser+Streaming.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0D81F917097005ABE81 /* MessagePackParser+Streaming.m */; };
+		D729A0742194541A00D8260F /* NSArray+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D91F917097005ABE81 /* NSArray+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A0752194541A00D8260F /* NSArray+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0DA1F917097005ABE81 /* NSArray+MessagePack.m */; };
+		D729A0762194541A00D8260F /* NSData+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0DB1F917097005ABE81 /* NSData+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A0772194541A00D8260F /* NSData+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0DC1F917097005ABE81 /* NSData+MessagePack.m */; };
+		D729A0782194541A00D8260F /* NSDictionary+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0DD1F917097005ABE81 /* NSDictionary+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A0792194541A00D8260F /* NSDictionary+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0DE1F917097005ABE81 /* NSDictionary+MessagePack.m */; };
+		D729A07A2194541A00D8260F /* NSNull+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0DF1F917097005ABE81 /* NSNull+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A07B2194541A00D8260F /* NSNull+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0E01F917097005ABE81 /* NSNull+MessagePack.m */; };
+		D729A07C2194541A00D8260F /* NSNumber+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0E11F917097005ABE81 /* NSNumber+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A07D2194541A00D8260F /* NSNumber+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0E21F917097005ABE81 /* NSNumber+MessagePack.m */; };
+		D729A07E2194541A00D8260F /* NSString+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0E31F917097005ABE81 /* NSString+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A07F2194541A00D8260F /* NSString+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0E41F917097005ABE81 /* NSString+MessagePack.m */; };
+		D729A0802194541C00D8260F /* MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D21F917097005ABE81 /* MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A0812194541C00D8260F /* MessagePackPacker.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D31F917097005ABE81 /* MessagePackPacker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A0822194541C00D8260F /* MessagePackPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0D41F917097005ABE81 /* MessagePackPacker.m */; };
+		D729A0832194541C00D8260F /* MessagePackParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D51F917097005ABE81 /* MessagePackParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A0842194541C00D8260F /* MessagePackParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0D61F917097005ABE81 /* MessagePackParser.m */; };
+		D729A0852194541C00D8260F /* MessagePackParser+Streaming.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D71F917097005ABE81 /* MessagePackParser+Streaming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A0862194541C00D8260F /* MessagePackParser+Streaming.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0D81F917097005ABE81 /* MessagePackParser+Streaming.m */; };
+		D729A0872194541C00D8260F /* NSArray+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D91F917097005ABE81 /* NSArray+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A0882194541C00D8260F /* NSArray+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0DA1F917097005ABE81 /* NSArray+MessagePack.m */; };
+		D729A0892194541C00D8260F /* NSData+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0DB1F917097005ABE81 /* NSData+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A08A2194541C00D8260F /* NSData+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0DC1F917097005ABE81 /* NSData+MessagePack.m */; };
+		D729A08B2194541C00D8260F /* NSDictionary+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0DD1F917097005ABE81 /* NSDictionary+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A08C2194541C00D8260F /* NSDictionary+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0DE1F917097005ABE81 /* NSDictionary+MessagePack.m */; };
+		D729A08D2194541C00D8260F /* NSNull+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0DF1F917097005ABE81 /* NSNull+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A08E2194541C00D8260F /* NSNull+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0E01F917097005ABE81 /* NSNull+MessagePack.m */; };
+		D729A08F2194541C00D8260F /* NSNumber+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0E11F917097005ABE81 /* NSNumber+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A0902194541C00D8260F /* NSNumber+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0E21F917097005ABE81 /* NSNumber+MessagePack.m */; };
+		D729A0912194541C00D8260F /* NSString+MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0E31F917097005ABE81 /* NSString+MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A0922194541C00D8260F /* NSString+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = D736A0E41F917097005ABE81 /* NSString+MessagePack.m */; };
+		D729A0932194544A00D8260F /* msgpack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0B91F90F760005ABE81 /* msgpack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A0942194544B00D8260F /* msgpack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0B91F90F760005ABE81 /* msgpack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D729A0952194544B00D8260F /* msgpack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0B91F90F760005ABE81 /* msgpack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D736A0BB1F90F760005ABE81 /* msgpack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0B91F90F760005ABE81 /* msgpack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D736A0E51F917097005ABE81 /* MessagePack.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D21F917097005ABE81 /* MessagePack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D736A0E61F917097005ABE81 /* MessagePackPacker.h in Headers */ = {isa = PBXBuildFile; fileRef = D736A0D31F917097005ABE81 /* MessagePackPacker.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -50,6 +170,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D7299FFC21944A3700D8260F /* msgpack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = msgpack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D729A00921944A5B00D8260F /* msgpack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = msgpack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D729A01621944A7100D8260F /* msgpack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = msgpack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D736A0B61F90F760005ABE81 /* msgpack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = msgpack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D736A0B91F90F760005ABE81 /* msgpack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = msgpack.h; path = msgpack/msgpack.h; sourceTree = "<group>"; };
 		D736A0BA1F90F760005ABE81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = msgpack/Info.plist; sourceTree = "<group>"; };
@@ -95,6 +218,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D7299FF921944A3700D8260F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D729A00621944A5B00D8260F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D729A01321944A7100D8260F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D736A0B21F90F760005ABE81 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -120,6 +264,9 @@
 			isa = PBXGroup;
 			children = (
 				D736A0B61F90F760005ABE81 /* msgpack.framework */,
+				D7299FFC21944A3700D8260F /* msgpack.framework */,
+				D729A00921944A5B00D8260F /* msgpack.framework */,
+				D729A01621944A7100D8260F /* msgpack.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,6 +327,105 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		D7299FF721944A3700D8260F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D729A05F2194541900D8260F /* MessagePackParser+Streaming.h in Headers */,
+				D729A05D2194541900D8260F /* MessagePackParser.h in Headers */,
+				D729A0672194541900D8260F /* NSNull+MessagePack.h in Headers */,
+				D729A06B2194541900D8260F /* NSString+MessagePack.h in Headers */,
+				D729A0212194533400D8260F /* pack_define.h in Headers */,
+				D729A036219453AF00D8260F /* unpack.h in Headers */,
+				D729A0692194541900D8260F /* NSNumber+MessagePack.h in Headers */,
+				D729A01E2194532E00D8260F /* object.h in Headers */,
+				D729A05B2194541900D8260F /* MessagePackPacker.h in Headers */,
+				D729A0932194544A00D8260F /* msgpack.h in Headers */,
+				D729A0612194541900D8260F /* NSArray+MessagePack.h in Headers */,
+				D729A042219453C900D8260F /* zbuffer.h in Headers */,
+				D729A0302194535000D8260F /* unpack_define.h in Headers */,
+				D729A048219453DC00D8260F /* msgpack.h in Headers */,
+				D729A0652194541900D8260F /* NSDictionary+MessagePack.h in Headers */,
+				D729A0242194533A00D8260F /* pack_template.h in Headers */,
+				D729A05A2194541900D8260F /* MessagePack.h in Headers */,
+				D729A033219453AA00D8260F /* unpack_template.h in Headers */,
+				D729A0632194541900D8260F /* NSData+MessagePack.h in Headers */,
+				D729A03C219453BD00D8260F /* version.h in Headers */,
+				D729A02A2194534400D8260F /* sbuffer.h in Headers */,
+				D729A039219453B700D8260F /* version_master.h in Headers */,
+				D729A02D2194534A00D8260F /* sysdep.h in Headers */,
+				D729A0272194533F00D8260F /* pack.h in Headers */,
+				D729A045219453CF00D8260F /* zone.h in Headers */,
+				D729A03F219453C300D8260F /* vrefbuffer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D729A00421944A5B00D8260F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D729A0722194541A00D8260F /* MessagePackParser+Streaming.h in Headers */,
+				D729A0702194541A00D8260F /* MessagePackParser.h in Headers */,
+				D729A07A2194541A00D8260F /* NSNull+MessagePack.h in Headers */,
+				D729A07E2194541A00D8260F /* NSString+MessagePack.h in Headers */,
+				D729A0222194533500D8260F /* pack_define.h in Headers */,
+				D729A037219453B000D8260F /* unpack.h in Headers */,
+				D729A07C2194541A00D8260F /* NSNumber+MessagePack.h in Headers */,
+				D729A01F2194532F00D8260F /* object.h in Headers */,
+				D729A06E2194541A00D8260F /* MessagePackPacker.h in Headers */,
+				D729A0942194544B00D8260F /* msgpack.h in Headers */,
+				D729A0742194541A00D8260F /* NSArray+MessagePack.h in Headers */,
+				D729A043219453CA00D8260F /* zbuffer.h in Headers */,
+				D729A0312194535100D8260F /* unpack_define.h in Headers */,
+				D729A049219453DD00D8260F /* msgpack.h in Headers */,
+				D729A0782194541A00D8260F /* NSDictionary+MessagePack.h in Headers */,
+				D729A0252194533B00D8260F /* pack_template.h in Headers */,
+				D729A06D2194541A00D8260F /* MessagePack.h in Headers */,
+				D729A034219453AB00D8260F /* unpack_template.h in Headers */,
+				D729A0762194541A00D8260F /* NSData+MessagePack.h in Headers */,
+				D729A03D219453BE00D8260F /* version.h in Headers */,
+				D729A02B2194534500D8260F /* sbuffer.h in Headers */,
+				D729A03A219453B800D8260F /* version_master.h in Headers */,
+				D729A02E2194534B00D8260F /* sysdep.h in Headers */,
+				D729A0282194533F00D8260F /* pack.h in Headers */,
+				D729A046219453D000D8260F /* zone.h in Headers */,
+				D729A040219453C400D8260F /* vrefbuffer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D729A01121944A7100D8260F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D729A0852194541C00D8260F /* MessagePackParser+Streaming.h in Headers */,
+				D729A0832194541C00D8260F /* MessagePackParser.h in Headers */,
+				D729A08D2194541C00D8260F /* NSNull+MessagePack.h in Headers */,
+				D729A0912194541C00D8260F /* NSString+MessagePack.h in Headers */,
+				D729A0232194533600D8260F /* pack_define.h in Headers */,
+				D729A038219453B100D8260F /* unpack.h in Headers */,
+				D729A08F2194541C00D8260F /* NSNumber+MessagePack.h in Headers */,
+				D729A0202194533000D8260F /* object.h in Headers */,
+				D729A0812194541C00D8260F /* MessagePackPacker.h in Headers */,
+				D729A0952194544B00D8260F /* msgpack.h in Headers */,
+				D729A0872194541C00D8260F /* NSArray+MessagePack.h in Headers */,
+				D729A044219453CB00D8260F /* zbuffer.h in Headers */,
+				D729A0322194535200D8260F /* unpack_define.h in Headers */,
+				D729A04A219453DE00D8260F /* msgpack.h in Headers */,
+				D729A08B2194541C00D8260F /* NSDictionary+MessagePack.h in Headers */,
+				D729A0262194533B00D8260F /* pack_template.h in Headers */,
+				D729A0802194541C00D8260F /* MessagePack.h in Headers */,
+				D729A035219453AC00D8260F /* unpack_template.h in Headers */,
+				D729A0892194541C00D8260F /* NSData+MessagePack.h in Headers */,
+				D729A03E219453BF00D8260F /* version.h in Headers */,
+				D729A02C2194534600D8260F /* sbuffer.h in Headers */,
+				D729A03B219453B800D8260F /* version_master.h in Headers */,
+				D729A02F2194534C00D8260F /* sysdep.h in Headers */,
+				D729A0292194534000D8260F /* pack.h in Headers */,
+				D729A047219453D100D8260F /* zone.h in Headers */,
+				D729A041219453C500D8260F /* vrefbuffer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D736A0B31F90F760005ABE81 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -216,9 +462,63 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D736A0B51F90F760005ABE81 /* msgpack */ = {
+		D7299FFB21944A3700D8260F /* msgpack-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D736A0BE1F90F760005ABE81 /* Build configuration list for PBXNativeTarget "msgpack" */;
+			buildConfigurationList = D729A00321944A3700D8260F /* Build configuration list for PBXNativeTarget "msgpack-macOS" */;
+			buildPhases = (
+				D7299FF721944A3700D8260F /* Headers */,
+				D7299FF821944A3700D8260F /* Sources */,
+				D7299FF921944A3700D8260F /* Frameworks */,
+				D7299FFA21944A3700D8260F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "msgpack-macOS";
+			productName = "msgpack-macOS";
+			productReference = D7299FFC21944A3700D8260F /* msgpack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D729A00821944A5B00D8260F /* msgpack-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D729A00E21944A5B00D8260F /* Build configuration list for PBXNativeTarget "msgpack-tvOS" */;
+			buildPhases = (
+				D729A00421944A5B00D8260F /* Headers */,
+				D729A00521944A5B00D8260F /* Sources */,
+				D729A00621944A5B00D8260F /* Frameworks */,
+				D729A00721944A5B00D8260F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "msgpack-tvOS";
+			productName = "msgpack-tvOS";
+			productReference = D729A00921944A5B00D8260F /* msgpack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D729A01521944A7100D8260F /* msgpack-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D729A01B21944A7100D8260F /* Build configuration list for PBXNativeTarget "msgpack-watchOS" */;
+			buildPhases = (
+				D729A01121944A7100D8260F /* Headers */,
+				D729A01221944A7100D8260F /* Sources */,
+				D729A01321944A7100D8260F /* Frameworks */,
+				D729A01421944A7100D8260F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "msgpack-watchOS";
+			productName = "msgpack-watchOS";
+			productReference = D729A01621944A7100D8260F /* msgpack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D736A0B51F90F760005ABE81 /* msgpack-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D736A0BE1F90F760005ABE81 /* Build configuration list for PBXNativeTarget "msgpack-iOS" */;
 			buildPhases = (
 				D736A0B11F90F760005ABE81 /* Sources */,
 				D736A0B21F90F760005ABE81 /* Frameworks */,
@@ -229,7 +529,7 @@
 			);
 			dependencies = (
 			);
-			name = msgpack;
+			name = "msgpack-iOS";
 			productName = msgpack;
 			productReference = D736A0B61F90F760005ABE81 /* msgpack.framework */;
 			productType = "com.apple.product-type.framework";
@@ -240,8 +540,20 @@
 		D736A0AD1F90F760005ABE81 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1010;
 				TargetAttributes = {
+					D7299FFB21944A3700D8260F = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
+					D729A00821944A5B00D8260F = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
+					D729A01521944A7100D8260F = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
 					D736A0B51F90F760005ABE81 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
@@ -260,12 +572,36 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D736A0B51F90F760005ABE81 /* msgpack */,
+				D736A0B51F90F760005ABE81 /* msgpack-iOS */,
+				D7299FFB21944A3700D8260F /* msgpack-macOS */,
+				D729A00821944A5B00D8260F /* msgpack-tvOS */,
+				D729A01521944A7100D8260F /* msgpack-watchOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D7299FFA21944A3700D8260F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D729A00721944A5B00D8260F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D729A01421944A7100D8260F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D736A0B41F90F760005ABE81 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -276,6 +612,69 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D7299FF821944A3700D8260F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D729A0622194541900D8260F /* NSArray+MessagePack.m in Sources */,
+				D729A0642194541900D8260F /* NSData+MessagePack.m in Sources */,
+				D729A05E2194541900D8260F /* MessagePackParser.m in Sources */,
+				D729A05C2194541900D8260F /* MessagePackPacker.m in Sources */,
+				D729A06C2194541900D8260F /* NSString+MessagePack.m in Sources */,
+				D729A057219453FF00D8260F /* zone.c in Sources */,
+				D729A0662194541900D8260F /* NSDictionary+MessagePack.m in Sources */,
+				D729A04B219453E300D8260F /* objectc.c in Sources */,
+				D729A051219453F100D8260F /* version.c in Sources */,
+				D729A054219453F800D8260F /* vrefbuffer.c in Sources */,
+				D729A0602194541900D8260F /* MessagePackParser+Streaming.m in Sources */,
+				D729A0682194541900D8260F /* NSNull+MessagePack.m in Sources */,
+				D729A06A2194541900D8260F /* NSNumber+MessagePack.m in Sources */,
+				D729A04E219453EA00D8260F /* unpack.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D729A00521944A5B00D8260F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D729A0752194541A00D8260F /* NSArray+MessagePack.m in Sources */,
+				D729A0772194541A00D8260F /* NSData+MessagePack.m in Sources */,
+				D729A0712194541A00D8260F /* MessagePackParser.m in Sources */,
+				D729A06F2194541A00D8260F /* MessagePackPacker.m in Sources */,
+				D729A07F2194541A00D8260F /* NSString+MessagePack.m in Sources */,
+				D729A0582194540000D8260F /* zone.c in Sources */,
+				D729A0792194541A00D8260F /* NSDictionary+MessagePack.m in Sources */,
+				D729A04C219453E400D8260F /* objectc.c in Sources */,
+				D729A052219453F200D8260F /* version.c in Sources */,
+				D729A055219453F900D8260F /* vrefbuffer.c in Sources */,
+				D729A0732194541A00D8260F /* MessagePackParser+Streaming.m in Sources */,
+				D729A07B2194541A00D8260F /* NSNull+MessagePack.m in Sources */,
+				D729A07D2194541A00D8260F /* NSNumber+MessagePack.m in Sources */,
+				D729A04F219453EB00D8260F /* unpack.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D729A01221944A7100D8260F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D729A0882194541C00D8260F /* NSArray+MessagePack.m in Sources */,
+				D729A08A2194541C00D8260F /* NSData+MessagePack.m in Sources */,
+				D729A0842194541C00D8260F /* MessagePackParser.m in Sources */,
+				D729A0822194541C00D8260F /* MessagePackPacker.m in Sources */,
+				D729A0922194541C00D8260F /* NSString+MessagePack.m in Sources */,
+				D729A0592194540100D8260F /* zone.c in Sources */,
+				D729A08C2194541C00D8260F /* NSDictionary+MessagePack.m in Sources */,
+				D729A04D219453E500D8260F /* objectc.c in Sources */,
+				D729A053219453F300D8260F /* version.c in Sources */,
+				D729A056219453FA00D8260F /* vrefbuffer.c in Sources */,
+				D729A0862194541C00D8260F /* MessagePackParser+Streaming.m in Sources */,
+				D729A08E2194541C00D8260F /* NSNull+MessagePack.m in Sources */,
+				D729A0902194541C00D8260F /* NSNumber+MessagePack.m in Sources */,
+				D729A050219453EC00D8260F /* unpack.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D736A0B11F90F760005ABE81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -300,6 +699,221 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		D729A00121944A3700D8260F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = msgpack/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.ably.msgpack-macOS";
+				PRODUCT_NAME = msgpack;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D729A00221944A3700D8260F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = msgpack/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.ably.msgpack-macOS";
+				PRODUCT_NAME = msgpack;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D729A00F21944A5B00D8260F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = msgpack/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.ably.msgpack-tvOS";
+				PRODUCT_NAME = msgpack;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		D729A01021944A5B00D8260F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = msgpack/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.ably.msgpack-tvOS";
+				PRODUCT_NAME = msgpack;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		D729A01C21944A7100D8260F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = msgpack/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.ably.msgpack-watchOS";
+				PRODUCT_NAME = msgpack;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		D729A01D21944A7100D8260F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = msgpack/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.ably.msgpack-watchOS";
+				PRODUCT_NAME = msgpack;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
 		D736A0BC1F90F760005ABE81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -310,15 +924,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -346,6 +968,8 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SHARED_BUILD_NUMBER = 1;
+				SHARED_VERSION_NUMBER = 2.0.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -362,15 +986,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -391,6 +1023,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SHARED_BUILD_NUMBER = 1;
+				SHARED_VERSION_NUMBER = 2.0.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -410,8 +1044,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.remyvirin.msgpack;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.ably.msgpack-iOS";
+				PRODUCT_NAME = msgpack;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -428,8 +1062,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.remyvirin.msgpack;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.ably.msgpack-iOS";
+				PRODUCT_NAME = msgpack;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -437,6 +1071,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D729A00321944A3700D8260F /* Build configuration list for PBXNativeTarget "msgpack-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D729A00121944A3700D8260F /* Debug */,
+				D729A00221944A3700D8260F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D729A00E21944A5B00D8260F /* Build configuration list for PBXNativeTarget "msgpack-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D729A00F21944A5B00D8260F /* Debug */,
+				D729A01021944A5B00D8260F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D729A01B21944A7100D8260F /* Build configuration list for PBXNativeTarget "msgpack-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D729A01C21944A7100D8260F /* Debug */,
+				D729A01D21944A7100D8260F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D736A0B01F90F760005ABE81 /* Build configuration list for PBXProject "msgpack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -446,7 +1107,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D736A0BE1F90F760005ABE81 /* Build configuration list for PBXNativeTarget "msgpack" */ = {
+		D736A0BE1F90F760005ABE81 /* Build configuration list for PBXNativeTarget "msgpack-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D736A0BF1F90F760005ABE81 /* Debug */,
