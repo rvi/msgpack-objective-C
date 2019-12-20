@@ -1,8 +1,10 @@
 default_platform(:ios)
 
 platform :ios do
-  desc "Bump Version"
-  lane :bump_version do |options|
+  desc "Bump the projecy version"
+  lane :version_bump_project do |options|
+    next_version = "undefined"
+
     project = Xcodeproj::Project.open('../msgpack.xcodeproj')
     project.build_configurations.each do |build|
       current_version = build.build_settings['SHARED_VERSION_NUMBER']
@@ -34,5 +36,24 @@ platform :ios do
       puts " - #{target.name}"
     end
     project.save()
+
+    next_version
+  end
+
+  desc "Prepare a new Release version"
+  lane :release do |options|
+    ensure_git_status_clean(show_uncommitted_changes: true)
+    version_number = version_bump_project(bump_type: options[:bump])
+    version_bump_podspec(bump_type: options[:bump])
+    git_commit(path: [
+      "./msgpack.podspec",
+      "./msgpack.xcodeproj/project.pbxproj",
+    ], message: "Bump to v" + version_number)
+    if !git_tag_exists(tag: version_number)
+      add_git_tag(
+        tag: version_number,
+        sign: true
+      )
+    end
   end
 end
