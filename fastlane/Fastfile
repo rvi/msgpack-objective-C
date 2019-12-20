@@ -1,0 +1,59 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Bump the projecy version"
+  lane :version_bump_project do |options|
+    next_version = "undefined"
+
+    project = Xcodeproj::Project.open('../msgpack.xcodeproj')
+    project.build_configurations.each do |build|
+      current_version = build.build_settings['SHARED_VERSION_NUMBER']
+      puts "#{build.name}: current SHARED_VERSION_NUMBER is #{current_version}"
+
+      version_array = current_version.split(".").map(&:to_i)
+      case options[:bump_type]
+      when "patch"
+        version_array[2] = (version_array[2] ? version_array[2] : 0) + 1
+      when "minor"
+        version_array[1] = (version_array[1] ? version_array[1] : 0) + 1
+        version_array[2] = version_array[2] = 0
+      when "major"
+        version_array[0] = (version_array[0] ? version_array[0] : 0) + 1
+        version_array[1] = version_array[1] = 0
+        version_array[1] = version_array[2] = 0
+      end
+
+      if options[:omit_zero_patch_version] && version_array[2] == 0
+        version_array.pop()
+      end
+
+      next_version = version_array.join(".")
+      puts "#{build.name}: setting SHARED_VERSION_NUMBER with #{next_version}"
+      build.build_settings['SHARED_VERSION_NUMBER'] = next_version
+    end
+    puts "Available Targets:"
+    project.targets.each do |target|
+      puts " - #{target.name}"
+    end
+    project.save()
+
+    next_version
+  end
+
+  desc "Prepare a new Release version"
+  lane :release do |options|
+    ensure_git_status_clean(show_uncommitted_changes: true)
+    version_number = version_bump_project(bump_type: options[:bump])
+    version_bump_podspec(bump_type: options[:bump])
+    git_commit(path: [
+      "./msgpack.podspec",
+      "./msgpack.xcodeproj/project.pbxproj",
+    ], message: "Bump to v" + version_number)
+    if !git_tag_exists(tag: version_number)
+      add_git_tag(
+        tag: version_number,
+        sign: true
+      )
+    end
+  end
+end
