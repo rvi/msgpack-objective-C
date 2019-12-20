@@ -1,8 +1,5 @@
 
 framework module msgpack {
-  umbrella header "msgpack-umbrella2.h"
-
-  header "$SDKROOT/usr/include/zlib.h"
-  link "zlib"
+  umbrella header "MessagePack.h"
   export *
 }
