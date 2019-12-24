@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
 			Extremely efficient object serialization library. It's like JSON, but very fast and small.
                        DESC
   s.homepage         = "https://github.com/rvi/msgpack-objective-C"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'Apache'
   s.author           = { "Rémy Virin" => "remy@remyvirin.com" }
   s.source           = { :git => "https://github.com/rvi/msgpack-objective-C.git", :tag => s.version.to_s }
@@ -28,11 +27,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
+  s.private_header_files = 'Pod/Classes/msgpack_src/**/*.h'
   s.module_map = "msgPack.modulemap"
-
-  # s.resources = 'Pod/Assets/*.png'
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
