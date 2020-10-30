@@ -1,5 +1,5 @@
 PODS:
-  - msgpack (0.2.0)
+  - msgpack (0.3.1)
 
 DEPENDENCIES:
   - msgpack (from `../`)
