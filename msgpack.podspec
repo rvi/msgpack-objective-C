@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "msgpack"
-  s.version          = "0.3.1"
+  s.version          = "0.4.0"
   s.summary          = "Latest msgpack source, with objective-C  wrapper. Unit tested."
   s.description      = <<-DESC
 			Msgpack for objective-C
