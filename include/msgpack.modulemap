@@ -1,0 +1,9 @@
+// This file should match msgpack/msgpack.modulemap, except for that it's "module
+// msgpack" rather than "framework module msgpack", and the paths below have the
+// msgpack/ prefix (due to not being a framework module)
+module msgpack {
+    umbrella header "msgpack/msgpack.h"
+
+    export *
+    module * { export * }
+}
