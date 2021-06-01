@@ -1,6 +1,7 @@
 # msgpack
 
 [![CI Status](https://travis-ci.org/rvi/msgpack-objective-C.svg?style=flat)](https://travis-ci.org/rvirin/msgpack-objective-C)
+[![SwiftPM Compatible](https://img.shields.io/badge/SwiftPM-Compatible-brightgreen.svg)](https://swift.org/package-manager)
 [![Version](https://img.shields.io/cocoapods/v/msgpack.svg?style=flat)](http://cocoadocs.org/docsets/msgpack)
 [![License](https://img.shields.io/cocoapods/l/msgpack.svg?style=flat)](http://cocoadocs.org/docsets/msgpack)
 [![Platform](https://img.shields.io/cocoapods/p/msgpack.svg?style=flat)](http://cocoadocs.org/docsets/msgpack)
